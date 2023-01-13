@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.repository;
+package com.lti.springboot.demo.security.repository;
 
 
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.lti.springboot.demo.model.User;
+import com.lti.springboot.demo.security.model.User;
 
 
 @Repository

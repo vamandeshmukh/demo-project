@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.config;
+package com.lti.springboot.demo.security.config;
 
 
 import java.io.IOException;
@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.lti.springboot.demo.service.UserDetailsServiceImpl;
+import com.lti.springboot.demo.security.service.UserDetailsServiceImpl;
 
 
 public class AuthTokenFilter extends OncePerRequestFilter {

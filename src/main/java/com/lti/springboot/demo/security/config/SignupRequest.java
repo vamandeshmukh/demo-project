@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.config;
+package com.lti.springboot.demo.security.config;
 
 import java.util.Set;
 

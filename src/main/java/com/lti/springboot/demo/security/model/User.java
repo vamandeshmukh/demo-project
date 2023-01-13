@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.model;
+package com.lti.springboot.demo.security.model;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,7 @@
-package com.lti.springboot.demo.service;
-import com.lti.springboot.demo.model.User;
-import com.lti.springboot.demo.model.UserDetailsImpl;
+package com.lti.springboot.demo.security.service;
+import com.lti.springboot.demo.security.model.User;
+import com.lti.springboot.demo.security.model.UserDetailsImpl;
+import com.lti.springboot.demo.security.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,8 +9,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.lti.springboot.demo.repository.UserRepository;
 
 
 @Service

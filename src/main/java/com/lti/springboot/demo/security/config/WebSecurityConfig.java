@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.config;
+package com.lti.springboot.demo.security.config;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -25,7 +25,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.lti.springboot.demo.service.UserDetailsServiceImpl;
+import com.lti.springboot.demo.security.service.UserDetailsServiceImpl;
 
 @Configuration
 @EnableGlobalMethodSecurity(

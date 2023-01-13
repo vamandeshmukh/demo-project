@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.config;
+package com.lti.springboot.demo.security.config;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
-import com.lti.springboot.demo.model.UserDetailsImpl;
+import com.lti.springboot.demo.security.model.UserDetailsImpl;
 
 import io.jsonwebtoken.*;
 

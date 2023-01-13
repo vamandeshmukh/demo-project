@@ -1,12 +1,12 @@
-package com.lti.springboot.demo.repository;
+package com.lti.springboot.demo.security.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.lti.springboot.demo.model.ERole;
-import com.lti.springboot.demo.model.Role;
+import com.lti.springboot.demo.security.model.ERole;
+import com.lti.springboot.demo.security.model.Role;
 
 
 @Repository

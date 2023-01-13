@@ -1,4 +1,4 @@
-package com.lti.springboot.demo.controller;
+package com.lti.springboot.demo.security.controller;
 
 
 import java.util.HashSet;
@@ -21,16 +21,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lti.springboot.demo.config.JwtResponse;
-import com.lti.springboot.demo.config.JwtUtils;
-import com.lti.springboot.demo.config.LoginRequest;
-import com.lti.springboot.demo.config.SignupRequest;
-import com.lti.springboot.demo.model.ERole;
-import com.lti.springboot.demo.model.Role;
-import com.lti.springboot.demo.model.User;
-import com.lti.springboot.demo.model.UserDetailsImpl;
-import com.lti.springboot.demo.repository.RoleRepository;
-import com.lti.springboot.demo.repository.UserRepository;
+import com.lti.springboot.demo.security.config.JwtResponse;
+import com.lti.springboot.demo.security.config.JwtUtils;
+import com.lti.springboot.demo.security.config.LoginRequest;
+import com.lti.springboot.demo.security.config.SignupRequest;
+import com.lti.springboot.demo.security.model.ERole;
+import com.lti.springboot.demo.security.model.Role;
+import com.lti.springboot.demo.security.model.User;
+import com.lti.springboot.demo.security.model.UserDetailsImpl;
+import com.lti.springboot.demo.security.repository.RoleRepository;
+import com.lti.springboot.demo.security.repository.UserRepository;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
